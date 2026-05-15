@@ -1,0 +1,157 @@
+<mxfile host="65bd71144e">
+    <diagram name="ToF Sensor — Physical Configuration" id="d1">
+        <mxGraphModel dx="638" dy="557" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="p1bg" value="" style="rounded=1;fillColor=#F5F7FA;strokeColor=#9BAABF;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="10" width="840" height="580" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1t" value="Side View — data_generator.py Physical Configuration" style="text;html=1;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;fontSize=14;fontStyle=1;fontColor=#1B3A6B;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="14" width="840" height="28" as="geometry"/>
+                </mxCell>
+                <mxCell id="housing" value="" style="rounded=1;fillColor=#E8EDF4;strokeColor=#9BAABF;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="195" width="160" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="housing_lbl" value="Sensor Module" style="text;html=1;align=center;verticalAlign=top;fontSize=10;fontStyle=1;fontColor=#555555;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="193" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="lens" value="lens" style="rounded=1;fillColor=#D0E8FF;strokeColor=#2E75B6;strokeWidth=2;fontSize=7;fontColor=#2E75B6;fontStyle=2;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="188" y="240" width="12" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="det" value="&lt;b&gt;Detector Array&lt;/b&gt;&lt;br&gt;320 x 240 px&lt;br&gt;(5-8 mm wide)" style="rounded=0;fillColor=#2E75B6;strokeColor=#1B3A6B;fontColor=#ffffff;fontSize=9;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="55" y="215" width="85" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="vcsel" value="&lt;b&gt;VCSEL&lt;/b&gt;&lt;br&gt;~1-4 mm2" style="rounded=0;fillColor=#E07B2A;strokeColor=#B85D00;fontColor=#ffffff;fontSize=9;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="153" y="258" width="35" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="offset_arr" value="offset 5-20 mm" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;strokeColor=#c0392b;fontColor=#c0392b;fontSize=8;fontStyle=1;align=center;verticalAlign=bottom;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="140" y="310" as="sourcePoint"/>
+                        <mxPoint x="153" y="310" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="fov_top" value="" style="endArrow=none;startArrow=none;html=1;strokeColor=#2E75B6;strokeWidth=1.5;dashed=1;dashPattern=6 4;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="200" y="243" as="sourcePoint"/>
+                        <mxPoint x="380" y="90" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="fov_bot" value="" style="endArrow=none;startArrow=none;html=1;strokeColor=#2E75B6;strokeWidth=1.5;dashed=1;dashPattern=6 4;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="200" y="357" as="sourcePoint"/>
+                        <mxPoint x="770" y="510" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="fov_lbl" value="Field of View" style="text;html=1;align=center;verticalAlign=middle;fontSize=9;fontColor=#2E75B6;fontStyle=3;strokeColor=none;fillColor=none;rotation=-45;" parent="1" vertex="1">
+                    <mxGeometry x="209.76" y="128.03" width="110" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="axis" value="optical axis" style="endArrow=open;endSize=6;startArrow=none;html=1;strokeColor=#555555;strokeWidth=1;dashed=1;dashPattern=8 4;fontSize=9;fontColor=#555555;align=center;verticalAlign=bottom;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="200" y="300" as="sourcePoint"/>
+                        <mxPoint x="600" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="surface" value="" style="endArrow=none;startArrow=none;html=1;strokeColor=#2d6a4f;strokeWidth=6;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="380" y="90" as="sourcePoint"/>
+                        <mxPoint x="770" y="510" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="surface_lbl" value="Scene Surface&lt;br&gt;(tilted flat plane)" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;fontColor=#2d6a4f;fontStyle=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="602" y="383" width="120" height="38" as="geometry"/>
+                </mxCell>
+                <mxCell id="near_lbl" value="&lt;b&gt;0.3 m (near)&lt;/b&gt;&lt;br&gt;top of array" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;fontColor=#1B3A6B;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="388" y="66" width="130" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="near_err" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;strokeColor=#e63946;strokeWidth=2;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="375" y="87" as="sourcePoint"/>
+                        <mxPoint x="375" y="93" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="near_err_lbl" value="sigma ~ 1.3 mm" style="text;html=1;align=right;verticalAlign=middle;fontSize=8;fontColor=#e63946;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="292" y="84" width="82" height="16" as="geometry"/>
+                </mxCell>
+                <mxCell id="far_lbl" value="&lt;b&gt;5.0 m (far)&lt;/b&gt;&lt;br&gt;bottom of array" style="text;html=1;align=left;verticalAlign=middle;fontSize=9;fontColor=#1B3A6B;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="778" y="495" width="62" height="38" as="geometry"/>
+                </mxCell>
+                <mxCell id="far_err" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;strokeColor=#e63946;strokeWidth=2;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="766" y="476" as="sourcePoint"/>
+                        <mxPoint x="766" y="544" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="far_err_lbl" value="sigma ~ 22 mm" style="text;html=1;align=right;verticalAlign=middle;fontSize=8;fontColor=#e63946;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="682" y="495" width="82" height="16" as="geometry"/>
+                </mxCell>
+                <mxCell id="xover_line" value="" style="endArrow=none;startArrow=none;html=1;strokeColor=#9c27b0;strokeWidth=1.5;dashed=1;dashPattern=4 4;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="573" y="90" as="sourcePoint"/>
+                        <mxPoint x="573" y="415" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="xover_lbl" value="d = 2.68 m&lt;br&gt;sigma_shot = sigma_ambient&lt;br&gt;(crossover)" style="rounded=1;fillColor=#F3E5F5;strokeColor=#9c27b0;fontSize=8;fontColor=#9c27b0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="516" y="420" width="116" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="noise_legend" value="&lt;b&gt;Noise Model&lt;/b&gt;&lt;br&gt;Shot:    sigma = d / sqrt(N0)   [grows ~d2]&lt;br&gt;Ambient: sigma = 12 mm  [uniform]" style="rounded=1;fillColor=#FFF9E6;strokeColor=#F0A500;fontSize=9;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="435" width="216" height="58" as="geometry"/>
+                </mxCell>
+                <mxCell id="grad_note" value="depth: top to bottom&lt;br&gt;19.6 mm / row (dominant)&lt;br&gt;0.06 mm / col (minor)" style="rounded=1;fillColor=#E8F5E9;strokeColor=#2d6a4f;fontSize=9;fontColor=#2d6a4f;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="488" y="193" width="170" height="56" as="geometry"/>
+                </mxCell>
+                <mxCell id="grad_arr" value="" style="endArrow=open;endSize=6;startArrow=none;html=1;strokeColor=#2d6a4f;dashed=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="573" y="249" as="sourcePoint"/>
+                        <mxPoint x="573" y="298" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="p2bg" value="" style="rounded=1;fillColor=#F5F7FA;strokeColor=#9BAABF;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="870" y="10" width="560" height="580" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2t" value="Module Top View — VCSEL vs. Detector Array" style="text;html=1;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;fontSize=14;fontStyle=1;fontColor=#1B3A6B;" parent="1" vertex="1">
+                    <mxGeometry x="870" y="14" width="560" height="28" as="geometry"/>
+                </mxCell>
+                <mxCell id="pcb" value="" style="rounded=1;fillColor=#E8EDF4;strokeColor=#9BAABF;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="895" y="65" width="510" height="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="pcb_lbl" value="PCB / Flex Substrate" style="text;html=1;align=center;verticalAlign=top;fontSize=10;fontColor=#666666;fontStyle=2;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="895" y="68" width="510" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="m_det" value="&lt;b&gt;Detector Array&lt;/b&gt;&lt;br&gt;320 x 240 pixels&lt;br&gt;Area: ~25-60 mm2&lt;br&gt;(5-8 mm x 5-8 mm)" style="rounded=0;fillColor=#2E75B6;strokeColor=#1B3A6B;fontColor=#ffffff;fontSize=10;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="915" y="105" width="200" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="m_vcsel" value="&lt;b&gt;VCSEL Die&lt;/b&gt;&lt;br&gt;~1-4 mm2&lt;br&gt;flood emitter" style="rounded=0;fillColor=#E07B2A;strokeColor=#B85D00;fontColor=#ffffff;fontSize=10;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+                    <mxGeometry x="1230" y="155" width="130" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="m_offset" value="5-20 mm" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;strokeColor=#c0392b;fontColor=#c0392b;fontSize=9;fontStyle=1;align=center;verticalAlign=bottom;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1115" y="205" as="sourcePoint"/>
+                        <mxPoint x="1230" y="205" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m_det_w" value="5-8 mm" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;strokeColor=#2E75B6;fontColor=#2E75B6;fontSize=9;align=center;verticalAlign=bottom;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="915" y="320" as="sourcePoint"/>
+                        <mxPoint x="1115" y="320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m_vcsel_w" value="1-2 mm" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;strokeColor=#E07B2A;fontColor=#E07B2A;fontSize=9;align=center;verticalAlign=bottom;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1230" y="268" as="sourcePoint"/>
+                        <mxPoint x="1360" y="268" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="m_shadow" value="&lt;b&gt;Shadow Zone&lt;/b&gt;: lateral offset creates ~0.1-0.3 m minimum working distance&lt;br&gt;where illumination cone and detector FOV do not fully overlap." style="rounded=1;fillColor=#FFF3CD;strokeColor=#E07B2A;fontSize=9;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="895" y="392" width="510" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="m_code" value="&lt;i&gt;data_generator.py&lt;/i&gt;: zero-offset point source assumed (co-located VCSEL + detector).&lt;br&gt;Valid for d = 0.3-5.0 m characterization range. Shadow zone is not modeled." style="rounded=1;fillColor=#EEF4FA;strokeColor=#2E75B6;fontSize=9;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="895" y="454" width="510" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="m_noise" value="&lt;b&gt;Shot Noise Reference  (N0 = 50,000 ph/m2)&lt;/b&gt;&lt;br&gt;d = 0.3 m  sigma ~ 1.3 mm  |  d = 2.68 m  sigma = 12 mm (crossover)  |  d = 5.0 m  sigma ~ 22 mm" style="rounded=1;fillColor=#FFF9E6;strokeColor=#F0A500;fontSize=9;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="895" y="512" width="510" height="55" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
