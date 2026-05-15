@@ -1,6 +1,9 @@
 # macOS temporary files
 *.jpg
 
+# Claude Code local settings
+.claude/
+
 # Jupyter checkpoint folders
 .ipynb_checkpoints/
 
